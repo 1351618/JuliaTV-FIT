@@ -44,7 +44,7 @@ header a {
 }
 
 body {
-    background-color: aqua;
+    background-color: #ff0000;
     /* background-image: url("../images/background-image.png"); */
     background-size: 100vw auto;
     background-position: center;
