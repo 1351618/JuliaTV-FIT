@@ -95,6 +95,7 @@ body::before {
     margin: 22px 22px 0px 5px;
     padding: 4px;
     min-width: 130px;
+    padding: 0px 18px;
 }
 
 #main-cont_body,
