@@ -64,13 +64,15 @@ body::before {
     opacity: 0.2;
 }
 
-#main-cont {
+#main-cont,
+#training-cont {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1.5fr 2fr;
 }
 
-#main-cont_foto {
+#main-cont_foto,
+#training-cont_foto {
     grid-row: 1;
     grid-column: 1;
     display: flex;
@@ -78,7 +80,25 @@ body::before {
     align-items: center;
 }
 
-#main-cont_body {
+
+.training_button {
+    margin: 80px 80px 0px 80px;
+}
+
+
+.training_button button {
+    font-size: 20px;
+    height: 50px;
+    background-color: #000080bf;
+    border-radius: 13px;
+    color: aliceblue;
+    margin: 22px 22px 0px 5px;
+    padding: 4px;
+    min-width: 130px;
+}
+
+#main-cont_body,
+#training-cont_body {
     grid-row: 1;
     grid-column: 2;
     margin-right: 60px;
