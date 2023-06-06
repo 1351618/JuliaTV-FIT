@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/JuliaTV-FIT/static/css/main.04f64f1b.css",
-    "main.js": "/JuliaTV-FIT/static/js/main.61b0b7d1.js",
+    "main.js": "/JuliaTV-FIT/static/js/main.3f480b75.js",
     "static/js/787.b701888c.chunk.js": "/JuliaTV-FIT/static/js/787.b701888c.chunk.js",
     "static/media/logo.svg": "/JuliaTV-FIT/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/JuliaTV-FIT/index.html",
     "main.04f64f1b.css.map": "/JuliaTV-FIT/static/css/main.04f64f1b.css.map",
-    "main.61b0b7d1.js.map": "/JuliaTV-FIT/static/js/main.61b0b7d1.js.map",
+    "main.3f480b75.js.map": "/JuliaTV-FIT/static/js/main.3f480b75.js.map",
     "787.b701888c.chunk.js.map": "/JuliaTV-FIT/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04f64f1b.css",
-    "static/js/main.61b0b7d1.js"
+    "static/js/main.3f480b75.js"
   ]
 }
