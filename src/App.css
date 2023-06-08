@@ -138,15 +138,23 @@ body::before {
   margin-right: 60px;
 }
 
-#footer__contact {
+
+
+.footer {
   background-color: #000000a6;
-  /* display: flex; */
-  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  gap: 10px;
   margin: 2px;
-  height: 100px;
+  height: 60px;
   border-radius: 9px;
-  padding: 0px 40px 0px 80px;
+  padding: 0px 2vw 0px 2vw;
   box-shadow: 0 0 10px rgb(0 0 0 / 59%);
-  align-content: stretch;
   align-items: center;
+}
+
+.footer a img {
+  height: 30px;
 }
