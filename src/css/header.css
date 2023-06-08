@@ -1,0 +1,40 @@
+
+.header {
+    background-color: #000000a6;
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    min-height: 70px;
+    border-radius: 9px;
+    padding: 0px 2vw 0px 4vw;
+    box-shadow: 0 0 10px rgb(0 0 0 / 59%);
+    align-content: stretch;
+    align-items: center;
+}
+
+header a {
+color: #ffffff;
+cursor: pointer;
+}
+
+#header__logo img {
+height: 35px;
+/* margin-top: 20px; */
+}
+
+
+
+#header__menu ul {
+display: flex;
+    column-gap: 2vw;
+    row-gap: 0vw;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    color: cyan;
+}
+#header__menu ul li {
+border: 1px solid #00ffff2d;
+    border-radius: 10px;
+    padding: 0 0.5vw; 
+}
