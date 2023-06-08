@@ -1,38 +1,152 @@
-.App {
-  text-align: center;
+/* убираем все стили */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* font-size: 100%;
+  font: inherit; */
+  vertical-align: baseline;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+body {
+  background-color: aqua;
+  /* background-image: url("../images/background-image.png"); */
+  background-size: 100vw auto;
+  background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* изображение на заднем плане */
+body::before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url("../images/background-image.png") no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.2;
 }
 
-.App-header {
-  background-color: #24214e;
-  min-height: 100vh;
+.header {
+  background-color: #000000a6;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  margin: 2px;
+  min-height: 70px;
+  border-radius: 9px;
+  padding: 0px 2vw 0px 4vw;
+  box-shadow: 0 0 10px rgb(0 0 0 / 59%);
+  align-content: stretch;
   align-items: center;
+}
+
+header a {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#header__logo img {
+  height: 35px;
+  /* margin-top: 20px; */
+}
+
+
+
+#header__menu ul {
+  display: flex;
+    column-gap: 2vw;
+    row-gap: 0vw;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    color: cyan;
+}
+#header__menu ul li {
+  border: 1px solid #00ffff2d;
+    border-radius: 10px;
+    padding: 0 0.5vw; 
+}
+
+
+body {
+  background-color: aqua;
+  /* background-image: url("../images/background-image.png"); */
+  background-size: 100vw auto;
+  background-position: center;
+}
+
+
+/* изображение на заднем плане */
+body::before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url("../images/background-image.png") no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.2;
+}
+
+#main-cont,
+#training-cont {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1.5fr 2fr;
+}
+
+#main-cont_foto,
+#training-cont_foto {
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+.training_button {
+  margin: 80px 80px 0px 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.training_button button {
+  font-size: 20px;
+  height: 50px;
+  background-color: #000080bf;
+  border-radius: 13px;
+  color: aliceblue;
+  margin: 22px 22px 0px 5px;
+  padding: 4px;
+  min-width: 130px;
+  padding: 0px 18px;
+}
+
+#main-cont_body,
+#training-cont_body {
+  grid-row: 1;
+  grid-column: 2;
+  margin-right: 60px;
+}
+
+#footer__contact {
+  background-color: #000000a6;
+  /* display: flex; */
+  justify-content: space-between;
+  margin: 2px;
+  height: 100px;
+  border-radius: 9px;
+  padding: 0px 40px 0px 80px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 59%);
+  align-content: stretch;
+  align-items: center;
 }
