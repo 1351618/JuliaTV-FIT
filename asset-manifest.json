@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/JuliaTV-FIT/static/css/main.873aa578.css",
-    "main.js": "/JuliaTV-FIT/static/js/main.ae3fe47c.js",
+    "main.css": "/JuliaTV-FIT/static/css/main.df9e2731.css",
+    "main.js": "/JuliaTV-FIT/static/js/main.a889d669.js",
     "static/js/787.b701888c.chunk.js": "/JuliaTV-FIT/static/js/787.b701888c.chunk.js",
     "static/media/background-image.png": "/JuliaTV-FIT/static/media/background-image.ffe162c09682b5f75445.png",
+    "static/media/whatsapp_icon.png": "/JuliaTV-FIT/static/media/whatsapp_icon.0a6f7d3169d7d93903bd.png",
+    "static/media/telegram_icon.png": "/JuliaTV-FIT/static/media/telegram_icon.430b59faac637aedb68d.png",
+    "static/media/instagram_icon.png": "/JuliaTV-FIT/static/media/instagram_icon.01513081bbaa45f0f1fc.png",
     "static/media/logo.png": "/JuliaTV-FIT/static/media/logo.f22b3411278f4e33c4ae.png",
+    "static/media/phone_icon.png": "/JuliaTV-FIT/static/media/phone_icon.b5dab2a312d685c3172c.png",
     "index.html": "/JuliaTV-FIT/index.html",
-    "main.873aa578.css.map": "/JuliaTV-FIT/static/css/main.873aa578.css.map",
-    "main.ae3fe47c.js.map": "/JuliaTV-FIT/static/js/main.ae3fe47c.js.map",
+    "main.df9e2731.css.map": "/JuliaTV-FIT/static/css/main.df9e2731.css.map",
+    "main.a889d669.js.map": "/JuliaTV-FIT/static/js/main.a889d669.js.map",
     "787.b701888c.chunk.js.map": "/JuliaTV-FIT/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.873aa578.css",
-    "static/js/main.ae3fe47c.js"
+    "static/css/main.df9e2731.css",
+    "static/js/main.a889d669.js"
   ]
 }
